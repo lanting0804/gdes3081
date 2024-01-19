@@ -10,7 +10,7 @@
     border: 1px solid black;
 
     grid-template-columns: repeat(28, 1fr);
-    grid-template-rows: repeat(16, 1fr);
+    grid-template-rows: repeat(15, 1fr);
 }
 
 .dark-grey{
