@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-zoom:1.0">
+  	<meta charset="utf-8">
+    <title>Process Page Template</title>
+    <style>
+        /* Move all CSS to a stylesheet */
+        * { /* Remove default browser spacing */
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 100px; /* Add spacing around the entire page */ 
+            font-size: 12px; /* Setting baseline font size */ 
+        }
+
+        /* Start of text sizes */
+        h1 {
+            font-size: 4em;
+        }
+        h2 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 2em;
+            line-height: 1.5em;
+        }
+        figcaption {
+            font-size: 1.25em;
+        }
+        /* End of text sizes */
+
+        /* Start of spacing and layout */
+        h2, p, figure, figcaption {
+            margin-bottom: 40px;
+        }
+        img {
+            margin-bottom: 10px;
+        }
+        .process-template {
+            width: 40%; /* Set the width of the template to 60% of the viewport. */
+            margin: auto; /* Center align the template by adding auto margins to the left and right */
+        }
+        .title {
+            margin-bottom: 100px; /* Add spacing to the bottom of the title div */
+        }
+
+        .section {
+            margin-bottom: 100px;
+        }
+        /* End of spacing and layout */
+
+        /* Adding media queries for page to adapts to tablet and mobile devices */
+        @media (max-width: 991px) {
+            .process-template {
+                width: 60%;
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                margin: 40px;
+                font-size: 10px;
+            }
+            .process-template {
+                width: 100%;
+            }
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="process-template">
+        <!-- Start of title -->
+        <div class="title">
+            <h1>Lucky Claw Machine</h1>
+        </div>
+        <!-- End of title -->
+        <!-- Start of content -->
+        <div class="content">
+            <!-- Start of a section -->
+            <div class="section">
+                <h2>Inspired</h2>
+                <p>
+                    The story I want to tell comes from summer vacation when I came across a claw machine in the mall and it had very cute toys inside. I wanted to try it out and put in a coin. yuan ben wo yi w needed many chances to get that toy, but I didn't realize that I succeeded on the first try. This is the first time I got a toy with just one coin and I think zhe s a very lucky day.
+                </p>
+             <!-- Start of a section -->
+                <!-- Start of image with caption -->
+                <figure>
+                    <img href="storybook photo 1.jpg">
+                    <figcaption>Photo I shoot in summer</figcaption>
+                  </figure>
+                  <!-- End of image with caption -->
+              </div>
+              <!-- End of a section -->
+              <!-- Start of a new section -->
+              <div class="section">
+                <h2>Research</h2>
+                <p>
+                    In order to get the effect I wanted, I first searched the internet for claw machine drawing, sketched it and then used figma to come up with the effect. Finally, I used html and css to complete it. I used rectangles to make the "claw", circles and rectangles to make the "lever", and variations in transparency to show the window where the toys fall. I researched and learned many different ways of placing the buttons, and finally chose my favorite effect. 
+                </p>
+                <!-- Start of a section -->
+                <!-- Start of image with caption -->
+                <figure>
+                  <img href="storybook photo 2.png">
+                  <figcaption>Figma demo</figcaption>
+                </figure>              
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a new section -->
+        </div>
+        <!-- End of content -->
+    </div>
+  </body>
+</html>
