@@ -1,0 +1,256 @@
+.back-rectangle{
+    width: 1920px;
+    height: 2560px;
+    background-color: #7E6FD7;
+   
+}
+.glass{
+    width: 1672.73px;
+    height: 1090.91px;
+    background-color: #C8D3F9;
+    position:absolute;
+    top: 340px;
+    left: 125px;
+}
+.small-glass{
+    width: 581.82px;
+    height: 261.82px;
+    background-color: #E9EEFF;
+    position: absolute;
+    top: 1168px;
+    left: 125px;
+}
+.red-ball{
+    width: 232.73px;
+    height: 232.73px;
+    background-color: #E64A4A;
+    border-radius: 50%;
+    position: absolute;
+    top: 1198px;
+    left: 727px;
+}
+.green-ball{
+    width: 232.73px;
+    height: 232.73px;
+    background-color: #98E64A;
+    border-radius: 50%;
+    position: absolute;
+    top: 1198px;
+    left: 852px;
+}
+.pink-ball{
+
+    width: 232.73px;
+    height: 232.73px;
+    background-color: #E64AD7;
+    border-radius: 50%;
+    position: absolute;
+    top: 1198px;
+    left: 1565px;
+}
+.purple-ball{
+
+    width: 232.73px;
+    height: 232.73px;
+    background-color: #574AE6;
+    border-radius: 50%;
+    position: absolute;
+    top: 1198px;
+    left: 1405px;
+}
+.exit{
+    width: 683.64px;
+    height: 698.18px;
+    background-color: #C8D3F9;
+    position: absolute;
+    top: 1780px;
+    left: 125px;
+}
+.cyan-ball{
+
+    width: 232.73px;
+    height: 232.73px;
+    background-color: #4ADDE6;
+    border-radius: 50%;
+    position: absolute;
+    top: 2161px;
+    left: 195px;
+}
+.exit-glass{
+    width: 465.45px;
+    height: 523.64px;
+    background-color: #E9EEFF;
+    opacity: 0.7;
+    position: absolute;
+    top: 1871px;
+    left: 233px;
+    
+}
+.platform{
+    width: 872.73px;
+    height: 72.73px;
+    background-image: linear-gradient(#A8D6F7, #C8E4F9);
+    position: absolute;
+    top: 1597px;
+    left: 925px;
+}
+.control-stick-left{
+    width: 43.64px;
+    height: 145.45px;
+    background-color: #414141;
+    position: absolute;
+    top: 1433px;
+    left: 1085px;
+}
+.control-stick-right{
+    width: 43.64px;
+    height: 145.45px;
+    background-color: #414141;
+    position: absolute;
+    top: 1433px;
+    left: 1254px;
+}
+.control-bottom{
+    width: 349.09px;
+    height: 58.18px;
+    background-color: #E6F9FF;
+    position: absolute;
+    top: 1539px;
+    left: 1015px;
+}
+.control-ball-left{
+    width: 116.36px;
+    height: 116.36px;
+    border-radius: 50%;
+    background-color: #FF6E6E;
+    position: absolute;
+    top: 1364px;
+    left: 1047px;
+}
+.control-ball-right{
+    width: 116.36px;
+    height: 116.36px;
+    border-radius: 50%;
+    background-color: #FF6E6E;
+    position: absolute;
+    top: 1364px;
+    left: 1220px;
+}
+.control-button{
+    width: 174.55px;
+    height: 87.27px;
+    background-color: #FF6E6E;
+    position: absolute;
+    top: 1510px;
+    left: 1519px;
+}
+.coin-square{
+    width: 232.73px;
+    height: 232.73px;
+    background-color: #E6F9FF;
+    position: absolute;
+    top: 1780px;
+    left: 1460px;
+}
+.coin-circle{
+    width: 174.55px;
+    height: 174.55px;
+    border-radius: 50%;
+    background-color: #ABD8F7;
+    position: absolute;
+    top: 1812px;
+    left: 1492px;
+}
+.coin-circle-2{
+    width: 154.19px;
+    height: 154.19px;
+    border-radius: 50%;
+    background-color: #E6F9FF;
+    position: absolute;
+    top: 1822px;
+    left: 1502px;
+}
+.coin-hole{
+    width: 20.36px;
+    height: 116.37px;
+    background-color: #ABD8F7;
+    position: absolute;
+    top: 1842px;
+    left: 1568px;
+}
+.stick{
+    width: 1672.73px;
+    height: 58.18px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 451px;
+    left: 125px;
+}
+.stick-square{
+    width: 160px;
+    height: 87.27px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 433px;
+    left: 233px;
+}
+.claw-stick{
+    width: 43.64px;
+    height: 203.64px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 521px;
+    left: 291px;
+}
+.claw-circle{
+    width: 87.27px;
+    height: 87.27px;
+    border-radius: 50%;
+    background-color: #878FA4;
+    position: absolute;
+    top: 684px;
+    left: 268px;
+}
+.claw-stick-left-1{
+    width: 145.45px;
+    height: 43.64px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 704px;
+    left: 166px;
+}
+.claw-stick-right-1{
+    width: 145.45px;
+    height: 43.64px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 704px;
+    left: 311px;
+}
+.claw-stick-left-2{
+    width: 43.64px;
+    height: 145.45px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 704px;
+    left: 166px;
+}
+.claw-stick-right-2{
+    width: 43.64px;
+    height: 145.45px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 704px;
+    left: 413px;
+}
+.exit-glass:hover{
+    width: 465.45px;
+    height: 523.64px;
+    background-color: #E9EEFF;
+    opacity: 0.0;
+    position: absolute;
+    top: 1871px;
+    left: 233px;
+    
+}
+

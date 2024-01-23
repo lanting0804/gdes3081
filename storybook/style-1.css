@@ -1,0 +1,253 @@
+.back-rectangle{
+    width: 660px;
+    height: 880px;
+    background-color: #7E6FD7;
+   
+}
+.glass{
+    width: 575px;
+    height: 375px;
+    background-color: #C8D3F9;
+    position:absolute;
+    top: 114px;
+    left: 43px;
+}
+.small-glass{
+    width: 200px;
+    height: 90px;
+    background-color: #E9EEFF;
+    position: absolute;
+    top: 399px;
+    left: 43px;
+}
+.red-ball{
+    width: 80px;
+    height: 80px;
+    background-color: #E64A4A;
+    border-radius: 50%;
+    position: absolute;
+    top: 409px;
+    left: 253px;
+}
+.green-ball{
+    width: 80px;
+    height: 80px;
+    background-color: #98E64A;
+    border-radius: 50%;
+    position: absolute;
+    top: 409px;
+    left: 293px;
+}
+.cyan-ball{
+
+    width: 80px;
+    height: 80px;
+    background-color: #4ADDE6;
+    border-radius: 50%;
+    position: absolute;
+    top: 409px;
+    left: 393px;
+}
+.pink-ball{
+
+    width: 80px;
+    height: 80px;
+    background-color: #E64AD7;
+    border-radius: 50%;
+    position: absolute;
+    top: 409px;
+    left: 538px;
+}
+.purple-ball{
+
+    width: 80px;
+    height: 80px;
+    background-color: #574AE6;
+    border-radius: 50%;
+    position: absolute;
+    top: 409px;
+    left: 493px;
+}
+.exit{
+    width: 235px;
+    height: 240px;
+    background-color: #C8D3F9;
+    position: absolute;
+    top: 615px;
+    left: 43px;
+}
+.exit-glass{
+    width: 160px;
+    height: 180px;
+    background-color: #E9EEFF;
+    position: absolute;
+    top: 645px;
+    left: 80.5px;
+}
+.platform{
+    width: 300px;
+    height: 25px;
+    background-image: linear-gradient(#A8D6F7, #C8E4F9);
+    position: absolute;
+    top: 550px;
+    left: 318px;
+}
+.control-stick-left{
+    width: 15px;
+    height: 50px;
+    background-color: #414141;
+    position: absolute;
+    top: 489px;
+    left: 373px;
+}
+.control-stick-right{
+    width: 15px;
+    height: 50px;
+    background-color: #414141;
+    position: absolute;
+    top: 489px;
+    left: 438px;
+}
+.control-bottom{
+    width: 120px;
+    height: 20px;
+    background-color: #E6F9FF;
+    position: absolute;
+    top: 530px;
+    left: 353px;
+}
+.control-ball-left{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF6E6E;
+    position: absolute;
+    top: 469px;
+    left: 361px;
+}
+.control-ball-right{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF6E6E;
+    position: absolute;
+    top: 469px;
+    left: 426px;
+}
+.control-button{
+    width: 60px;
+    height: 30px;
+    background-color: #FF6E6E;
+    position: absolute;
+    top: 520px;
+    left: 519px;
+}
+.coin-square{
+    width: 80px;
+    height: 80px;
+    background-color: #E6F9FF;
+    position: absolute;
+    top: 615px;
+    left: 499px;
+}
+.coin-circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ABD8F7;
+    position: absolute;
+    top: 626px;
+    left: 509px;
+}
+.coin-circle-2{
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background-color: #E6F9FF;
+    position: absolute;
+    top: 629.5px;
+    left: 512.5px;
+}
+.coin-hole{
+    width: 7px;
+    height: 40px;
+    background-color: #ABD8F7;
+    position: absolute;
+    top: 636px;
+    left: 535.5px;
+}
+.stick{
+    width: 575px;
+    height: 20px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 154px;
+    left: 43px;
+}
+.stick-square{
+    width: 55px;
+    height: 30px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 149px;
+    left: 80px;
+}
+.claw-stick{
+    width: 15px;
+    height: 70px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 179px;
+    left: 100px;
+}
+.claw-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #878FA4;
+    position: absolute;
+    top: 234px;
+    left: 92.5px;
+}
+.claw-stick-left-1{
+    width: 50px;
+    height: 15px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 241.5px;
+    left: 57.5px;
+}
+.claw-stick-right-1{
+    width: 50px;
+    height: 15px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 241.5px;
+    left: 107.5px;
+}
+.claw-stick-left-2{
+    width: 15px;
+    height: 50px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 241.5px;
+    left: 57.5px;
+}
+.claw-stick-right-2{
+    width: 15px;
+    height: 50px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 241.5px;
+    left: 142.5px;
+}
+.button{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #F4DC00;
+    cursor: pointer;
+    position: absolute;
+    top: 500px;
+    left: 800px;
+}

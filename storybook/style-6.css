@@ -1,0 +1,218 @@
+.back-rectangle{
+    width: 1448px;
+    height: 1080px;
+    background-color: #7E6FD7;
+    position: absolute;
+    top: 0px;
+    left: 236px;
+   
+}
+.glass{
+    width: 1261.52px;
+    height: 822.73px;
+    background-color: #C8D3F9;
+    position:absolute;
+    top: 0px;
+    left: 330px;
+}
+.small-glass{
+    width: 438.79px;
+    height: 197.45px;
+    background-color: #E9EEFF;
+    position: absolute;
+    top: 624px;
+    left: 330px;
+}
+.red-ball{
+    width: 175.52px;
+    height: 175.52px;
+    background-color: #E64A4A;
+    border-radius: 50%;
+    position: absolute;
+    top: 647px;
+    left: 800px;
+}
+.green-ball{
+    width: 175.52px;
+    height: 175.52px;
+    background-color: #98E64A;
+    border-radius: 50%;
+    position: absolute;
+    top: 647px;
+    left: 895px;
+}
+.cyan-ball{
+
+    width: 175.52px;
+    height: 175.52px;
+    background-color: #4ADDE6;
+    border-radius: 50%;
+    position: absolute;
+    top: 372px;
+    left: 393px;
+}
+.pink-ball{
+
+    width: 175.52px;
+    height: 175.52px;
+    background-color: #E64AD7;
+    border-radius: 50%;
+    position: absolute;
+    top: 647px;
+    left: 1416px;
+}
+.purple-ball{
+
+    width: 175.52px;
+    height: 175.52px;
+    background-color: #574AE6;
+    border-radius: 50%;
+    position: absolute;
+    top: 647px;
+    left: 1312px;
+}
+.platform{
+    width: 658.18px;
+    height: 54.85px;
+    background-image: linear-gradient(#A8D6F7, #C8E4F9);
+    position: absolute;
+    top: 957px;
+    left: 930px;
+}
+.control-stick-left{
+    width: 32.91px;
+    height: 109.7px;
+    background-color: #414141;
+    position: absolute;
+    top: 822.73px;
+    left: 1054px;
+}
+.control-stick-right{
+    width: 32.91px;
+    height: 109.7px;
+    background-color: #414141;
+    position: absolute;
+    top: 822.73px;
+    left: 1182px;
+}
+.control-bottom{
+    width: 263.27px;
+    height: 43.88px;
+    background-color: #E6F9FF;
+    position: absolute;
+    top: 914px;
+    left: 1002px;
+}
+.control-ball-left{
+    width: 87.76px;
+    height: 87.76px;
+    border-radius: 50%;
+    background-color: #FF6E6E;
+    position: absolute;
+    top: 779px;
+    left: 1027px;
+}
+.control-ball-right{
+    width: 87.76px;
+    height: 87.76px;
+    border-radius: 50%;
+    background-color: #FF6E6E;
+    position: absolute;
+    top: 779px;
+    left: 1156px;
+}
+.control-button{
+    width: 131.64px;
+    height: 65.82px;
+    background-color: #FF6E6E;
+    position: absolute;
+    top: 891px;
+    left: 1381px;
+}
+.stick{
+    width: 1261.52px;
+    height: 43.88px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 88px;
+    left: 330px;
+}
+.stick-square{
+    width: 120.67px;
+    height: 65.82px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 77px;
+    left: 412px;
+}
+.claw-stick{
+    width: 32.91px;
+    height: 153.58px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 142.82px;
+    left: 455px;
+}
+.claw-circle{
+    width: 65.82px;
+    height: 65.82px;
+    border-radius: 50%;
+    background-color: #878FA4;
+    position: absolute;
+    top: 263px;
+    left: 438px;
+}
+.claw-stick-left-1{
+    width: 109.7px;
+    height: 32.91px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 305px;
+    left: 361px;
+    transform: rotate(-30deg);
+}
+.claw-stick-right-1{
+    width: 109.7px;
+    height: 32.91px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 305px;
+    left: 471px;
+    transform: rotate(30deg);
+}
+.claw-stick-left-2{
+    width: 32.91px;
+    height: 109.7px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 333px;
+    left: 361px;
+    transform: rotate(-30deg);
+}
+.claw-stick-right-2{
+    width: 32.91px;
+    height: 109.7px;
+    background-color: #878FA4;
+    position: absolute;
+    top: 333px;
+    left: 547.79px;
+    transform: rotate(30deg);
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 40px solid rgb(255, 0, 0);
+    position: absolute;
+    top: 837px;
+    left: 1437px;
+}
+.control-button:hover{
+    width: 131.64px;
+    height: 65.82px;
+    background-color: #ffafaf;
+    position: absolute;
+    top: 891px;
+    left: 1381px;
+}

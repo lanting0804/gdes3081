@@ -1,0 +1,95 @@
+.platform{
+    width: 1531.06px;
+    height: 127.59px;
+    background-image: linear-gradient(#A8D6F7, #C8E4F9);
+    position: absolute;
+    top: 192px;
+    left: 194px;
+}
+.control-stick-left{
+    width: 76px;
+    height: 140px;
+    background-color: #414141;
+    position: absolute;
+    left: 475px;
+    top: 0px;
+    
+}
+.control-stick-right{
+    width: 76px;
+    height: 140px;
+    background-color: #414141;
+    position: absolute;
+    top: 0px;
+    left: 771px;
+}
+.control-bottom{
+    width: 612.42px;
+    height: 102.07px;
+    background-color: #E6F9FF;
+    position: absolute;
+    top: 90px;
+    left: 352px;
+}
+.control-button{
+    width: 306.21px;
+    height: 153.11px;
+    background-color: #FF6E6E;
+    position: absolute;
+    top: 39px;
+    left: 1235px;
+}
+.coin-square{
+    width: 408.28px;
+    height: 408.28px;
+    background-color: #E6F9FF;
+    position: absolute;
+    top: 511px;
+    left: 1133px;
+}
+.coin-circle{
+    width: 306.21px;
+    height: 306.21px;
+    border-radius: 50%;
+    background-color: #ABD8F7;
+    position: absolute;
+    top: 570px;
+    left: 1184px;
+}
+.coin-circle-2{
+    width: 270.49px;
+    height: 270.49px;
+    border-radius: 50%;
+    background-color: #E6F9FF;
+    position: absolute;
+    top: 587px;
+    left: 1201px;
+}
+.coin-hole{
+    width: 35.72px;
+    height: 204.14px;
+    background-color: #ABD8F7;
+    position: absolute;
+    top: 621px;
+    left: 1316.39px;
+}
+.coin{
+    width: 188px;
+    height: 188px;
+    border-radius: 50%;
+    background-color: #F4DC00;
+    cursor: pointer;
+    position: absolute;
+    top: 621px;
+    left: 1090px;
+}
+.coin:hover{
+    width: 188px;
+    height: 188px;
+    border-radius: 50%;
+    background-color: #fff6a4;
+    cursor: pointer;
+    position: absolute;
+    top: 621px;
+    left: 1090px;
+}
