@@ -1,0 +1,71 @@
+
+.adobe-font{
+    font-family: "droog", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: violet;
+    position: absolute;
+}
+.adobe-font:hover{
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+}
+.google-font{
+    font-family: "Vast Shadow", serif;
+    color: lightseagreen;
+    position: absolute;
+}
+.google-font:hover{
+    animation-name: rotate;
+    animation-duration: 1s;
+    
+}
+span{
+    display: block;
+}
+
+@font-face {
+    font-family: 'Bespoke';
+    src: url('fonts/Bespoke-z32iez05VD.eot');
+    src: url('fonts/Bespoke-z32iez05VD.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Bespoke-z32iez05VD.woff') format('woff'),
+       url('fonts/Bespoke-z32iez05VD.ttf') format('truetype'),
+       url('fonts/Bespoke-z32iez05VD.svg#Bespoke-z32iez05VD') format('svg');
+  }
+
+  .self-hosted{
+    font-family: 'Bespoke', sans-serif;
+    transition: color 750ms, transform 1000ms;
+    position: absolute;
+  }
+  .self-hosted:hover{
+    color: red;
+    animation-name: hop;
+    animation-duration: 250ms;
+  }
+
+  @keyframes hop{
+    to{
+        transform: translateY(0);
+
+    }
+    from{
+        transform: translateY(-20px);
+    }
+  }
+
+  @keyframes fade-in{
+    to{opacity: 100;
+
+    }
+    from{opacity: 0;}
+  }
+
+  @keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+    from{
+        transform: rotate(0deg);
+    }
+  }
