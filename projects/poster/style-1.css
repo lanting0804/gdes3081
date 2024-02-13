@@ -1,0 +1,182 @@
+body{
+    background-image: linear-gradient(90deg,#005896, #aeb4bc);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 36px 30px 36px;
+}
+.info{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+.line{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+    border-color: #FFFFFF;
+    position: relative;
+}
+.hero-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+}
+h1{
+    font-size: 12vh;
+    text-transform: uppercase;
+    font-family: "sofachrome", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFCD31;
+    text-shadow: 5px 5px #2c4455; 
+    z-index: 0;
+}
+
+.ellipse{
+    position: absolute;
+    margin: auto; 
+    width: 575px;
+    height: 150px;
+    background-color: transparent;
+    border: white solid;
+    border-width: 2px;
+    border-radius: 50%;
+}
+.ellipse2{
+    position: absolute;
+    margin: auto; 
+    width: 575px;
+    height: 150px;
+    background-color: transparent;
+    border: white solid;
+    border-width: 2px;
+    border-radius: 50%;
+    rotate: 60deg;
+}
+.ellipse3{
+    position: absolute;
+    margin: auto; 
+    width: 575px;
+    height: 150px;
+    background-color: transparent;
+    border: white solid;
+    border-width: 2px;
+    border-radius: 50%;
+    rotate: 120deg;
+}
+.ellipse-1{
+    position: absolute;
+    margin: auto; 
+    width: 565px;
+    height: 140px;
+    background-color: transparent;
+    border: white solid;
+    border-width: 2px;
+    border-radius: 50%;
+}
+.ellipse2-1{
+    position: absolute;
+    margin: auto; 
+    width: 565px;
+    height: 140px;
+    background-color: transparent;
+    border: white solid;
+    border-width: 2px;
+    border-radius: 50%;
+    rotate: 60deg;
+}
+.ellipse3-1{
+    position: absolute;
+    margin: auto; 
+    width: 565px;
+    height: 140px;
+    background-color: transparent;
+    border: white solid;
+    border-width: 2px;
+    border-radius: 50%;
+    rotate: 120deg;
+}
+.circle{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #FF9406;
+    border-radius: 50%;
+    top: 250px;
+    left: 506px;
+}
+.circle2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #FF9406;
+    border-radius: 50%;
+    top: 512px;
+    left: 370px;
+}
+.circle3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #FF9406;
+    border-radius: 50%;
+    top: 625px;
+    left: 719px;
+}
+h3{
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    text-align: right;
+}
+.organizers{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+h4{
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+.information{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px #323232;
+    position: absolute;
+    top: 230px;
+    left: 489px;
+}
+.time{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px #323232;
+    position: absolute;
+    top: 555px;
+    left: 330px;
+}
+.speakers{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px #323232;
+    position: absolute;
+    top: 668px;
+    left: 714px;
+}

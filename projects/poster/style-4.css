@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(90deg,#005896, #aeb4bc);
+}
+h1{
+    font-size: 7vh;
+    font-family: "sofachrome", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFCD31;
+}
+h2{
+    font-size: 4vh;
+    font-weight: 400;
+    color: white;
+}
+.circle{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #FF9406;
+    border-radius: 50%;
+}
