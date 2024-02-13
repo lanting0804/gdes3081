@@ -120,7 +120,7 @@ h1{
     height: 40px;
     background-color: #FF9406;
     border-radius: 50%;
-    top: 231px;
+    top: 261px;
     left: 566px;
 }
 .circle2{
@@ -129,7 +129,7 @@ h1{
     height: 40px;
     background-color: #FF9406;
     border-radius: 50%;
-    top: 480px;
+    top: 510px;
     left: 430px;
 }
 .circle3{
@@ -138,7 +138,7 @@ h1{
     height: 40px;
     background-color: #FF9406;
     border-radius: 50%;
-    top: 570px;
+    top: 600px;
     left: 757px;
 }
 h3{
@@ -171,7 +171,7 @@ h4{
     color: white;
     text-shadow: 1px 1px #323232;
     position: absolute;
-    top: 211px;
+    top: 241px;
     left: 555px;
 }
 .time{
@@ -182,8 +182,8 @@ h4{
     color: white;
     text-shadow: 1px 1px #323232;
     position: absolute;
-    top: 524px;
-    left: 400px;
+    top: 554px;
+    left: 390px;
 }
 .speakers{
     font-size: 12px;
@@ -193,6 +193,6 @@ h4{
     color: white;
     text-shadow: 1px 1px #323232;
     position: absolute;
-    top: 613px;
+    top: 643px;
     left: 754px;
 }
