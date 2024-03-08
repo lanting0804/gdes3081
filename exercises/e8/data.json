@@ -1,0 +1,34 @@
+{
+    "dogs":[
+        {
+            "name": "Australian-shepherd",
+            "description": "Energetic",
+            "link": "https://images.dog.ceo/breeds/australian-shepherd/sadie.jpg",
+            "photo": "Australian-shepherd.jpg"
+        },
+        {
+            "name": "Shiba",
+            "description": "Clever",
+            "link": "https://images.dog.ceo/breeds/shiba/shiba-6.jpg",
+            "photo": "Shiba.jpg"
+        },
+        {
+            "name": "Coonhound",
+            "description": "Strong",
+            "link": "https://images.dog.ceo/breeds/coonhound/n02089078_3081.jpg",
+            "photo": "Coonhound.jpg"
+        },
+        {
+            "name": "Poodle-toy",
+            "description": "Cute",
+            "link": "https://images.dog.ceo/breeds/poodle-toy/n02113624_1879.jpg",
+            "photo": "Poodle-toy.jpg"
+        },
+        {
+            "name": "Hound-afghan",
+            "description": "Elegant",
+            "link": "https://images.dog.ceo/breeds/hound-afghan/n02088094_9197.jpg",
+            "photo": "Hound-afghan.jpg"
+        }
+    ]
+}
