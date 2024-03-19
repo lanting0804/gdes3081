@@ -1,0 +1,112 @@
+*{
+    background-color: rgb(97, 179, 206);
+}
+h1{
+    position: absolute;
+    z-index: 0;
+    font-family: "brevia", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
+h2{
+    position: absolute;
+    font-family: "brevia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+    top: 20vh;
+}
+.balloon1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 80vh;
+    animation: float 3s linear infinite;
+}
+
+.balloon2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(203, 255, 129);
+    border-radius: 50%;
+    position: absolute;
+    top: 85vh;
+    left: 30vh;
+    animation: expand 3s linear infinite;
+}
+.balloon3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 88, 193);
+    border-radius: 50%;
+    position: absolute;
+    top: 70vh;
+    left: 50vh;
+    animation: float 3s linear infinite;
+}
+.balloon4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(21, 40, 165);
+    border-radius: 50%;
+    position: absolute;
+    top: 15vh;
+    left: 45vh;
+    animation: float 3s linear infinite;
+}
+.balloon5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 69, 28);
+    border-radius: 50%;
+    position: absolute;
+    top: 40vh;
+    right: 70vh;
+    animation: float 3s linear infinite;
+}
+.balloon6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(238, 255, 88);
+    border-radius: 50%;
+    position: absolute;
+    top: 10vh;
+    right: 45vh;
+    animation: float 3s linear infinite;
+}
+.balloon7{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 87, 140);
+    border-radius: 50%;
+    position: absolute;
+    top: 80vh;
+    right: 10vh;
+    animation: expand 3s linear infinite;
+}
+
+@keyframes expand{
+    to{width: 100px;
+        height: 100px;
+
+    }
+    from{width: 20px;
+        height: 20px;
+    }
+  }
+@keyframes float{
+    to{transform: translateY(-500px);
+        width: 100px;
+        height: 100px;
+    }
+    from{width: 20px;
+        height: 20px;
+    }
+}
